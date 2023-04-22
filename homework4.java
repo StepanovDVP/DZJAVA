@@ -18,25 +18,25 @@ public class homework4 {
 //        print
 //        < [python, c++, java]
 //        exit
-        Scanner sc = new Scanner(System.in);
-        LinkedList<String> list = new LinkedList<>();
-        String input;
-        while (!(input = sc.nextLine()).equals("exit"))
-        {
-            if ("print".equals(input)){
-            System.out.println(reverseList(list));
-            } else if("revert".equals(input)){
-                list.removeLast();
-            }
-            else {list.add(input);
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//        LinkedList<String> list = new LinkedList<>();
+//        String input;
+//        while (!(input = sc.nextLine()).equals("exit"))
+//        {
+//            if ("print".equals(input)){
+//            System.out.println(reverseList(list));
+//            } else if("revert".equals(input)){
+//                list.removeLast();
+//            }
+//            else {list.add(input);
+//            }
+//        }
     }
-        public static<T> List<T> reverseList(List<T> list)
-        {
-            List<T> reverse = new ArrayList<>(list);
-            Collections.reverse(reverse);
-            return reverse;
-        }
+//        public static<T> List<T> reverseList(List<T> list)
+//        {
+//            List<T> reverse = new ArrayList<>(list);
+//            Collections.reverse(reverse);
+//            return reverse;
+//        }
 }
 
